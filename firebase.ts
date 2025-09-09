@@ -11,18 +11,18 @@ const firebaseConfig = {
   appId: process.env.EXPO_PUBLIC_FIREBASE_APP_ID,
 };
 
-console.log("Before app")
+console.log("Initializing Firebase app with configuration...")
 
 const app = initializeApp(firebaseConfig);
 
-console.log("after app")
+console.log("Firebase app initialized successfully")
 
 export const auth = getAuth(app);
 
-console.log("After auth");
+console.log("Firebase Auth service initialized");
 export const db = getFirestore(app);
 
-console.log("After db");
+console.log("Firestore database service initialized");
 
 /**
  * Ensures the user is authenticated with anonymous auth
