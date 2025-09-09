@@ -120,9 +120,6 @@ export default function ActionScreen() {
             • Your location will be included if permission is granted
           </Text>
           <Text style={styles.infoText}>
-            • Your device model will be recorded
-          </Text>
-          <Text style={styles.infoText}>
             • Pings are visible to everyone
           </Text>
         </View>

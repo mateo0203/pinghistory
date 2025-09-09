@@ -44,7 +44,7 @@ export const createPing = async (uid: string, message?: string): Promise<void> =
         };
       }
     } catch (locationError) {
-      console.warn('Location access failed:', locationError);
+      console.warn('Location failed:', locationError);
     }
 
     const pingData = {
