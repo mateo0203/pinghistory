@@ -1,6 +1,6 @@
 # PingHistory
 
-A minimal, production-ready Expo React Native app that allows users to send "pings" with optional messages and location data. Built with TypeScript, Firebase, and Expo Router.
+An Expo React Native app that allows users to send "pings" with optional messages and location data. Built with TypeScript, Firebase, and Expo Router.
 
 ## Features
 
