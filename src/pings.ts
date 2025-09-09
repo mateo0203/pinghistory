@@ -54,9 +54,7 @@ export const createPing = async (uid: string, message?: string): Promise<void> =
       createdAt: serverTimestamp(),
     };
 
-    console.log("Creating document...")
     await addDoc(collection(db, 'pings'), pingData);
-    console.log("Document created")
     
   } catch (error) {
     console.error('Error creating ping:', error);
