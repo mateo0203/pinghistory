@@ -39,7 +39,7 @@ export default function HistoryScreen() {
   };
 
   const formatCoordinates = (coords: { lat: number; lng: number } | null): string => {
-    if (!coords) return 'No location';
+    if (!coords) return 'There is no location';
     return `${coords.lat.toFixed(4)}, ${coords.lng.toFixed(4)}`;
   };
 
